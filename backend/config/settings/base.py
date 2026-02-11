@@ -10,6 +10,7 @@ SECRET_KEY = os.getenv('SECRET_KEY', 'replace-me')
 DEBUG = os.getenv('DEBUG', '0') == '1'
 ALLOWED_HOSTS = os.getenv('ALLOWED_HOSTS', '').split(',') if os.getenv('ALLOWED_HOSTS') else []
 
+# CORS_ORIGIN_ALLOW_ALL = True
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
