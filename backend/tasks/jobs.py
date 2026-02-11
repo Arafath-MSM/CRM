@@ -1,0 +1,1 @@
+# Background job stubs (campaign sends, syncs, AI tasks, etc.)
